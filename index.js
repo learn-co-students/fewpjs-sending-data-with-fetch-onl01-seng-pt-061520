@@ -19,15 +19,17 @@ function submitData(name, email) {
 	).then(function(response) {
 		return response.json();
 	}).then(function(object) {
-		console.log(object);
-		const messageContainer = document.getElementById('message');
-		const messageTag = document.createElement('p');
-		messageTag.innerText = object.id;
-		messageContainer.appendChild(messageTag);
+		console.log(object.id);
+		document.body.innerHTML = object.id;
+		// const messageContainer = document.getElementById('message');
+		// const messageTag = document.createElement('p');
+		// messageTag.innerText = object.id;
+		// messageContainer.appendChild(messageTag);
 	}).catch(function(error) {
-		const messageContainer = document.getElementById('message');
-		const messageTag = document.createElement('p');
-		messageTag.innerText = error.message;
-		messageContainer.appendChild(messageTag)
+		document.body.innerHTML = error.message;
+		// const messageContainer = document.getElementById('message');
+		// const messageTag = document.createElement('p');
+		// messageTag.innerText = error.message;
+		// messageContainer.appendChild(messageTag)
 	});
 }

@@ -28,7 +28,18 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "name": "hello",
+      "email": "world",
+      "id": 1
+    },
+    {
+      "name": "hello",
+      "email": "world",
+      "id": 2
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",
