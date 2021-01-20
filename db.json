@@ -91,7 +91,38 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "name": "logan",
+      "email": "logan",
+      "id": 1
+    },
+    {
+      "name": "logan",
+      "email": "logan",
+      "id": 2
+    },
+    {
+      "name": "logan",
+      "email": "logan",
+      "id": 3
+    },
+    {
+      "name": "logan",
+      "email": "logan",
+      "id": 4
+    },
+    {
+      "name": "logan",
+      "email": "logan",
+      "id": 5
+    },
+    {
+      "name": "logan",
+      "email": "logan",
+      "id": 6
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",
